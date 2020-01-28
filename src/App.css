@@ -1,38 +1,137 @@
-.App {
+.profile{
+  background-color: white;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-left{
+  margin-top: 17vh;
+  margin-left:  15vw;
+  width: 40vw;
+}
+
+.profile-right{
+  margin-top: 26vh;
+  margin-right: 10vw;
+}
+
+.page-line{
+  height: 85vh;
+  width: 1px;
+  background-color: black;
+  margin-top: 5vh;
+}
+
+.down-arrow{
+  height: 10vh;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ruby-l, .ruby-a, .javascript-l, .javascript-a, .html-l, .html-a, .github-l, .github-a, .sql-l, .sql-a, .react-l, .react-a{
+  height: 18vh;
+  width: 11vw;
+  margin: 9px 0px;
+  border-radius: 10%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ruby-l, .javascript-l, .github-l, .html-l, .react-l, .sql-l{
+  background-size: cover;
+  background-position-x: center;
+  text-indent: -9999px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ruby-l{
+  background-image: url('./images/ruby.png');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ruby-a{
+
+}
+
+.javascript-l{
+  background-image: url('./images/javascript.png');
+
+}
+
+.html-l{
+  background-image: url('./images/html.jpg');
+
+}
+
+.github-l{
+  background-image: url('./images/github.png');
+
+
+}
+
+.sql-l{
+  background-image: url('./images/sql.png');
+
+
+}
+
+.react-l{
+  background-image: url('./images/react.png');
+}
+
+.page1{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly
 }
 
-.App-link {
-  color: #61dafb;
+.about{
+  height: 100vh;
+  width: 45vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.education{
+  background-color: lightcoral;
+  height: 100vh;
+  width: 45vw;
+}
+
+.ed-line{
+  width: 60%;
+  height: 1px;
+  background-color: white;
+}
+
+.ed-div{
+  display: flex;
+  justify-content: space-between
+}
+
+.page2{
+  display: flex;
+  justify-content: space-evenly
+}
+
+.projects{
+  background-color: green;
+  height: 100vh;
+  width: 45vw;
+
+}
+
+.career{
+  background-color: yellow;
+  height: 100vh;
+  width: 45vw;
+}
+
+.contact{
+  background-color: orange;
+  height: 100vh;
+
+
 }
