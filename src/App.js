@@ -3,7 +3,8 @@ import './App.css';
 import Profile from './Pages/Profile'
 import Page1 from './Pages/Page1'
 import Page2 from './Pages/Page2'
-import Contact from './Pages/Contact'
+import Footer from './Components/Footer'
+
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Profile />
       <Page1 />
       <Page2 />
-      <Contact />
+      <Footer/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Projects from '../Components/Projects'
-import Career from '../Components/Projects'
+import Contact from '../Components/Contact'
 
 const Page2 = () => {
 
@@ -8,7 +8,7 @@ const Page2 = () => {
         <div className="page2">
             <Projects/>
             <div className="page-line"></div>
-            <Career/>
+            <Contact/>
         </div>
     )
 }

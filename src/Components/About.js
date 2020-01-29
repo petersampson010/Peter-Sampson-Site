@@ -9,6 +9,7 @@ const About = () => {
             <p>Fulham FC fan</p>
             <img alt="image of yourself" src=""></img>
             <p>Programmer based in South London, UK. Huge Sports fan, amatuer comedian and traveller. My passion for coding comes from my passion for problem solving, even better; solving the problem as part of a great team.</p>
+            <p>put in a bit about your previous work and where you now want to go</p>
         </div>
     )
 }
