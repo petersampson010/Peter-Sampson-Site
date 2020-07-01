@@ -38,7 +38,7 @@ const Profile = () => {
                 </div>
                 <div className="page-line"></div>
                 <div className="profile-right">
-                    <div id="links">
+                    <div className="links">
                         <Link id="proj-link" to="projects" smooth={true} duration={1000}>Projects</Link>
                         <Link id="edca-link" to="education-career" smooth={true} duration={1000}>Education and Career</Link>
                         <Link id="cont-link" to="contact" smooth={true} duration={1000}>Contact</Link>

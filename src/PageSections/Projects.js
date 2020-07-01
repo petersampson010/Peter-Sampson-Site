@@ -1,19 +1,12 @@
 import React from 'react'
+import {Link} from 'react-scroll'
 
 import '../CSS/ProjectsCSS.scss'
 
 const Projects = () => {
     return (
         <div id="projects">
-            <div id="proj1">
-
-            </div>
-            <div id="proj2">
-
-            </div>
-            <div id="proj3">
-                
-            </div>
+            
             {/* <div className="projects-div">
                 <div className="tropic">
                     <div className="tropic-img"></div>
