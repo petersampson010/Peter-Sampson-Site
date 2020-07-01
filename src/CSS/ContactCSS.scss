@@ -1,0 +1,16 @@
+.contact{
+    background-color: yellow;
+    height: 100vh;
+    width: 45vw;
+  }
+
+  .contacts{
+    margin-top: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .github, .linkedin{
+    height: 20vh;
+    width: auto;
+  }

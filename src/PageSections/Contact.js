@@ -1,12 +1,14 @@
 import React from 'react'
 
+import '../CSS/ContactCSS.scss'
+
 const Contact = () => {
 
     const github = require('../images/github-logo.png')
     const linkedin = require('../images/linkedin-letters.png')
 
     return (
-        <div className="contact">
+        <div id="contact">
             <h3 className="contact-head">Find me on:</h3>
             <div className="contacts">
                 <a  href="https://github.com/petersampson010"><img src={github} target="_blank" className="github"></img></a>
