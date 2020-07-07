@@ -4,7 +4,6 @@ import Profile from './PageSections/Profile';
 import Projects from './PageSections/Projects';
 import EducationCareer from './PageSections/EducationCareer';
 import Contact from './PageSections/Contact';
-import Footer from './Components/Footer';
 
 
 
@@ -15,8 +14,7 @@ function App() {
       <Profile />
       <Projects />
       <EducationCareer />
-      <Contact />
-      <Footer/>
+      <Contact/>
     </div>
   );
 }

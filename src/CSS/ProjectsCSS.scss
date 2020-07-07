@@ -1,29 +1,132 @@
+$yellow: #feda6a;
 
+$silver: #d4d4dc;
+
+$matte-grey: #393f4d;
+
+$slate: #1d1e22;
 
 #projects{
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  }
+
+  #proj-box{
+    text-align: center;
+    height: 70vh;
+    width: 70vw;
+    position: absolute;
+    left: 5vw;
+    top: 115vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .proj1,.proj2,.proj3{
+    height: 100%;
+    width: 30%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .proj1-title, .proj2-title, .proj3-title{
+    font-size: 40px;
+    font-family: 'Calistoga';
+    background-size: cover;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 60px;
+  }
+  
+  .proj1-title{
+    color: whitesmoke;
+    background-image: url('../images/Tropic-back1.png');
+    background-size: cover;
+    background-position: top;
+  }
+
+  .proj2-title{
+    color: $slate;
+    background-image: url('../images/ocean.jpg');
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .proj3-title{
+    color: $matte-grey;
+    background-image: url('../images/sand.jpg');
+    background-size: cover;
+    background-position: top;
   }
 
 
+  .proj1-bot, .proj2-bot, .proj3-bot{
+    background-size: cover;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 60px;
+  }
+  
+  .proj1-bot{
+    background-image: url('../images/Tropic-back1.png');
+    background-position: bottom;
+  }
 
-  
-  // .tropic, .guess-who, .secret-santa{
-  //   display: flex;
-  //   justify-content: space-evenly;
-  //   width: 45vw;
-  //   height: 20vh;
-  // }
-  
-  // .tropic-img{
-  //   background-image: url('../images/Tropic.png');
-  //   background-size: cover;
-  //   height: 14.5vh;
-  //   width: 90vw;
-  //   background-position-x: center;
-  // }
-  
-  // .project-text{
-  //   margin: 0 12px;
-  //   text-align: center;
-  // }
+  .proj2-bot{
+    background-image: url('../images/ocean.jpg');
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .proj3-bot{
+    background-image: url('../images/sand.jpg');
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .proj-text{
+    color: $yellow;
+    font-family: 'Libre Baskerville', serif; 
+  }
+
+  #proj1-img{
+    background-image: url('../images/Tropic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  24%;
+    width:  99%;
+    display: inline-block;
+  }
+
+  #proj2-img{
+    background-image: url('../images/guess-who.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  29%;
+    width:  99%;
+    display: inline-block;
+  }
+
+  #proj3-img{
+    background-image: url('../images/secret-santa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  29%;
+    width:  99%;
+    display: inline-block;
+  }
+
+  .proj1-links{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .github{
+        height: 5vh;
+        width: auto;
+      }
