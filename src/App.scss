@@ -16,6 +16,9 @@ $slate: #1d1e22;
     background-color: $slate;
     color: $yellow;
     width: 79.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .page-right{
@@ -48,4 +51,10 @@ $slate: #1d1e22;
     font-family: 'Didot';
     font-size: 60px;
     transform: scaleY(1.2);
+}
+
+.page-break{
+  background-color: $yellow;
+  height: 1vh;
+  width: 79.5vw;
 }

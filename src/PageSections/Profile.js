@@ -15,12 +15,12 @@ const Profile = () => {
     const [java, setJava] = useState(false)
     const [redux, setRedux] = useState(false)
 
+    // const 
+
     return (
-        <div>
             <div id="profile">
                 <div className="page-left">
-                    <h1 className="page-header">Peter Sampson</h1>
-                    {/* <p id="profile-para">"Do not go gentle into that good night; Old age should burn and rave at close of day. Rage, rage against the dying of the light" - Dylan Thomas</p> */}
+                    <div id="header">Peter Sampson</div>
                     <div id="skills"> 
                         <div onMouseEnter={() => setJavascript(true)} onMouseLeave={() => setJavascript(false)} id={javascript ? "javascript-a" : "javascript-l"}>Competent in Javascript; manipulating the DOM and communicating with external servers</div>
                         <div onMouseEnter={() => setSql(true)} onMouseLeave={() => setSql(false)} id={sql ? "sql-a" : "sql-l"}>Worked with sqlLite3 and Postgres on various projects</div>
@@ -32,9 +32,11 @@ const Profile = () => {
                         <div onMouseEnter={() => setJava(true)} onMouseLeave={() => setJava(false)} id={java ? "java-a" : "java-l"}>Capable in Java programming language with emphasis on efficienct code</div>
                     </div>
                     <div id="profile-text-img">
+                        <img src={require('../images/me2.jpeg')} alt="image of myself here" id="my-image"/>
                         <About/>
-                        <img src="" alt="image of yourself here" id="my-image"/>
+                        <img src={require('../images/me.jpeg')} alt="image of myself here" id="my-image"/>
                     </div>
+                    <div className="page-break"></div>
                 </div>
                 <div className="page-line"></div>
                 <div className="page-right">
@@ -45,7 +47,6 @@ const Profile = () => {
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

@@ -88,12 +88,25 @@ $slate: #1d1e22;
 
   #profile-text-img{
     font-family: 'Optima';
-    margin-right: 10vw;
-    margin-left: 10vw;
+    // margin-right: 10vw;
+    // margin-left: 10vw;
     display: flex;
+    justify-content: space-evenly;
   }
 
+  #header{
+    text-align: center;
+    color: $silver;
+    font-family: 'Didot';
+    font-size: 60px;
+    transform: scaleY(1.2);
+}
+
   #about{
-    width: 70%;
+    width: 30%;
     text-align: left;
+  }
+
+  #my-image{
+    width: 20%;
   }

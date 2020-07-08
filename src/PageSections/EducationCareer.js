@@ -46,6 +46,7 @@ const EducationCareer = () => {
                         <div className="edca-text">I am currently undergoing my first role as a software developer. Learning best professional practices and getting exposure to the software development life cycle. I have recieved training in Java, SQL and Adobe Experience Manager for frontend development.</div>
                         <div className="edca-date">03/2020 - Present</div>
                     </div>
+                    <div className="page-break"></div>
                 </div>
                 <div className="page-line"></div>
                 <div className="page-right">
