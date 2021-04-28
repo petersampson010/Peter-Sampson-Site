@@ -33,8 +33,8 @@ const Profile = () => {
                         <div onMouseEnter={() => setGithub(true)} onMouseLeave={() => setGithub(false)} id={github ? "github-a" : "github-l"}>Consistently using GitHub to contribute to others and my own work</div>
                         <div onMouseEnter={() => setRedux(true)} onMouseLeave={() => setRedux(false)} id={redux ? "redux-a" : "redux-l"}>Gained good experience in working with Redux to simplify personal React projects</div>
                         <div onMouseEnter={() => setJava(true)} onMouseLeave={() => setJava(false)} id={java ? "java-a" : "java-l"}>Capable in Java programming language with emphasis on efficienct code</div>
-                        <div onMouseEnter={() => setJest(true)} onMouseLeave={() => setJest(false)} id={jest ? "jest-a" : "jest-l"}>Capable in Java programming language with emphasis on efficienct code</div>
-                        <div onMouseEnter={() => setReactNative(true)} onMouseLeave={() => setReactNative(false)} id={reactNative ? "reactNative-a" : "reactNative-l"}>Capable in Java programming language with emphasis on efficienct code</div>
+                        <div onMouseEnter={() => setJest(true)} onMouseLeave={() => setJest(false)} id={jest ? "jest-a" : "jest-l"}>Experienced in testing Javascript work with Jest's testing framework. </div>
+                        <div onMouseEnter={() => setReactNative(true)} onMouseLeave={() => setReactNative(false)} id={reactNative ? "reactNative-a" : "reactNative-l"}>Familiar with React Native programming, having created multiple mobile apps in my spare time</div>
                     </div>
                     <div id="profile-text-img">
                         <img src={require('../images/me2.jpeg')} alt="image of myself here" id="my-image"/>
