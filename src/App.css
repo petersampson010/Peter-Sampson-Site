@@ -38,7 +38,7 @@
   justify-content: space-evenly;
 }
 
-.ruby-l, .ruby-a, .javascript-l, .javascript-a, .html-l, .html-a, .github-l, .github-a, .sql-l, .sql-a, .react-l, .react-a{
+.ruby-l, .ruby-a, .javascript-l, .javascript-a, .html-l, .html-a, .github-l, .github-a, .sql-l, .sql-a, .react-l, .react-a, .reactNative-l, .reactNative-a, .jest-l, .jest-a{
   height: 18vh;
   width: 11vw;
   margin: 9px 0px;
@@ -46,7 +46,7 @@
   text-align: center;
 }
 
-.ruby-l, .javascript-l, .github-l, .html-l, .react-l, .sql-l{
+.ruby-l, .javascript-l, .github-l, .html-l, .react-l, .sql-l, .reactNative-l, .jest-l{
   background-size: cover;
   background-position-x: center;
   text-indent: -9999px;

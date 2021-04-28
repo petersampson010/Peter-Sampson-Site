@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.scss';
 import Profile from './PageSections/Profile';
 import Projects from './PageSections/Projects';
