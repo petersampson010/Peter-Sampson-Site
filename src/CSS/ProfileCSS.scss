@@ -31,14 +31,14 @@ $slate: #1d1e22;
   
   
   #skills{
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
   
-  #ruby-l, #ruby-a, #javascript-l, #javascript-a, #html-l, #html-a, #github-l, #github-a, #sql-l, #sql-a, #react-l, #react-a, #redux-l, #redux-a, #java-l, #java-a{
+  #ruby-l, #ruby-a, #javascript-l, #javascript-a, #html-l, #html-a, #github-l, #github-a, #sql-l, #sql-a, #react-l, #react-a, #redux-l, #redux-a, #java-l, #java-a, #reactNative-l, #reactNative-a, #jest-l, #jest-a{
     height: 18vh;
     width: 11vw;
     margin: 9px 20px;
@@ -48,7 +48,7 @@ $slate: #1d1e22;
     font-family: 'Libre Baskerville', serif; 
   }
   
-  #ruby-l, #javascript-l, #github-l, #html-l, #react-l, #sql-l, #java-l, #redux-l{
+  #ruby-l, #javascript-l, #github-l, #html-l, #react-l, #sql-l, #java-l, #redux-l, #reactNative-l, #jest-l{
     background-size: cover;
     background-position-x: center;
     text-indent: -9999px;
@@ -60,6 +60,14 @@ $slate: #1d1e22;
 
   #redux-l{
     background-image: url('../images/redux.png');
+  }
+
+  #jest-l{
+    background-image: url('../images/jest.png');
+  }
+  
+  #reactNative-l{
+    background-image: url('../images/react-native.jpeg');
   }
   
   #ruby-l{

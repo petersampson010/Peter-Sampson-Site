@@ -10,7 +10,7 @@ const EducationCareer = () => {
                     <div className="edca-section">
                         <div className="edca-title">Infosys - Technology Associate</div>
                         <div id="infosys"></div>
-                        <div className="edca-text">I am currently undergoing my first role as a software developer. Learning best professional practices and getting exposure to the software development life cycle. I have recieved training in Java, SQL and Adobe Experience Manager for frontend development.</div>
+                        <div className="edca-text">I am currently undergoing my first role as a software developer. I am constantly learning best professional practices, receiving valuable training and getting great exposure to the Software Development Life Cycle. Working on large projects with multiple teams has given me alot of experience of working in a professional environment. Ensurinig high quality work for all clients.</div>
                         <div className="edca-date">03/2020 - Present</div>
                     </div>
                     <div className="edca-section">

@@ -27,14 +27,14 @@ const Profile = () => {
                     <div id="skills"> 
                         <div onMouseEnter={() => setJavascript(true)} onMouseLeave={() => setJavascript(false)} id={javascript ? "javascript-a" : "javascript-l"}>Competent in Javascript; manipulating the DOM and communicating with external servers</div>
                         <div onMouseEnter={() => setSql(true)} onMouseLeave={() => setSql(false)} id={sql ? "sql-a" : "sql-l"}>Worked with sqlLite3 and Postgres on various projects</div>
-                        <div onMouseEnter={() => setRuby(true)} onMouseLeave={() => setRuby(false)} id={ruby ? "ruby-a" : "ruby-l"}>Experienced with Ruby and Ruby on Rails framework as either frontend or backend API</div>
-                        <div onMouseEnter={() => setHtml(true)} onMouseLeave={() => setHtml(false)} id={html ? "html-a" : "html-l"}>Capable of writing pure HTML along with dynamically designing sites using custom CSS</div>
                         <div onMouseEnter={() => setReact(true)} onMouseLeave={() => setReact(false)} id={react ? "react-a" : "react-l"}>Able to utilize react framework; class components, functional components, hooks and state</div>
+                        <div onMouseEnter={() => setHtml(true)} onMouseLeave={() => setHtml(false)} id={html ? "html-a" : "html-l"}>Capable of writing pure HTML along with dynamically designing sites using custom CSS</div>
+                        <div onMouseEnter={() => setRuby(true)} onMouseLeave={() => setRuby(false)} id={ruby ? "ruby-a" : "ruby-l"}>Experienced with Ruby and Ruby on Rails framework as either frontend or backend API</div>
                         <div onMouseEnter={() => setGithub(true)} onMouseLeave={() => setGithub(false)} id={github ? "github-a" : "github-l"}>Consistently using GitHub to contribute to others and my own work</div>
+                        <div onMouseEnter={() => setReactNative(true)} onMouseLeave={() => setReactNative(false)} id={reactNative ? "reactNative-a" : "reactNative-l"}>Familiar with React Native programming, having created multiple mobile apps in my spare time</div>
+                        <div onMouseEnter={() => setJest(true)} onMouseLeave={() => setJest(false)} id={jest ? "jest-a" : "jest-l"}>Experienced in testing Javascript code with Jest's testing framework</div>
                         <div onMouseEnter={() => setRedux(true)} onMouseLeave={() => setRedux(false)} id={redux ? "redux-a" : "redux-l"}>Gained good experience in working with Redux to simplify personal React projects</div>
                         <div onMouseEnter={() => setJava(true)} onMouseLeave={() => setJava(false)} id={java ? "java-a" : "java-l"}>Capable in Java programming language with emphasis on efficienct code</div>
-                        <div onMouseEnter={() => setJest(true)} onMouseLeave={() => setJest(false)} id={jest ? "jest-a" : "jest-l"}>Experienced in testing Javascript work with Jest's testing framework. </div>
-                        <div onMouseEnter={() => setReactNative(true)} onMouseLeave={() => setReactNative(false)} id={reactNative ? "reactNative-a" : "reactNative-l"}>Familiar with React Native programming, having created multiple mobile apps in my spare time</div>
                     </div>
                     <div id="profile-text-img">
                         <img src={require('../images/me2.jpeg')} alt="image of myself here" id="my-image"/>
