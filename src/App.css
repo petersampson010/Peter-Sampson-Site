@@ -60,6 +60,14 @@
 
 }
 
+.jest-l{
+  background-image: url('./images/jest.png');
+}
+
+.reactNative-l{
+  background-image: url('./images/react-native.jpeg');
+}
+
 .javascript-l{
   background-image: url('./images/javascript.png');
 
